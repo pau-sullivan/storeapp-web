@@ -1,0 +1,32 @@
+mat-card{
+  margin-top:5%;
+  padding: 0px;
+  margin-left:2%;
+}
+mat-card-header{
+  color: #fff;;
+  font-weight: bold;
+  /*background: #3f51b5; */
+  /* background: #673ab7; */
+  margin-bottom: 15px;
+  padding: 8px 2px;
+  display: flex;
+  justify-content: left;
+}
+.mat-card-subtitle{
+  display: none;
+}
+.mat-card-title {
+  margin-bottom: 0 !important;
+}
+mat-card-actions{
+  text-align: center;
+  padding-bottom: 15px !important;
+}
+
+mat-form-field{
+  width: 80%;
+  padding: 2%;
+  font-size: 16px;
+}
+

@@ -1,0 +1,10 @@
+{
+  "/api/*": {
+    "target": "http://pure-chamber-57559.herokuapp.com",
+    "secure": true,
+    "pathRewrite": {
+      "^/api/": ""
+    },
+    "changeOrigin": true
+  }
+}
